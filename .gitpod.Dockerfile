@@ -12,7 +12,6 @@ RUN apt update && \
         libayatana-appindicator3-dev \
         librsvg2-dev \
         at-spi2-core && \
-    npm i -g yarn && \
 #    cd /workspace/gitpod-test/crates/test-app && yarn && \
     rm -rf /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
 USER gitpod
